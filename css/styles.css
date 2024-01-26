@@ -500,6 +500,63 @@ img {
 .footer-social-icons:focus {
   background-color: #31d0aa;
 }
+.subscribe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.subscribe-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  margin-left: 80px;
+}
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  margin-left: 80px;
+}
+.subscribe-btn {
+  color: #fff;
+  display: inline-flex;
+  font-family: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-left: 24px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.subscribe-icon {
+  fill: #ffffff;
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus,
+.subscribe-btn:active {
+  background-color: #404bbf;
+}
+
 .backdrop {
   position: fixed;
   width: 100%;
@@ -572,7 +629,6 @@ img {
   margin-bottom: 16px;
 }
 label {
-  display: flex;
   flex-direction: column;
 }
 .modal-label {
